@@ -1,0 +1,11 @@
+let prompt = require("prompt-sync")();
+let  x1= +prompt("donner moi  la premier position  : ");
+let  y1= +prompt("donner moi  la premier position  : ");
+let  z1= +prompt("donner moi  la premier position  : ");
+let x2= +prompt("donner moi La deuxième position  : ");
+let y2= +prompt("donner moi La deuxième position  : ");
+let z2= +prompt("donner moi La deuxième position  : ");
+Distance = ((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)**(1/2);
+console.log("Position A :"+"(" + x1+","+y1+","+z1+ ")");
+console.log("Position B : "+"(" + x2+","+y2+","+z2+ ")");
+console.log("la distance : " +Distance);
