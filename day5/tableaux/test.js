@@ -3,7 +3,7 @@ let A =[];
 let B = [];
 
 for (let i = 0 ; i < tab.length; i++){
-    if( (tab[i] % 2) == 1){
+    if( (tab[i] % 2) !=    0){
         A[A.length] = tab[i];//A.push(tab[i]);
      }
      
@@ -15,12 +15,13 @@ for (let i = 0 ; i < tab.length; i++){
      console.log( A);
      console.log(B);
      
-     if(A[A.length]>B[B.length]){
-        console.log("les multiplirtaue de 3 plus que les impaire");
+     if(A.length>B.length){
+        console.log("les impaire plus que les mu...de 3");
         
      }
      else{
-        console.log("les impaire plus que les mu...de 3");
+      console.log("les multiplirtaue de 3 plus que les impaire");
+        
      }
       
 
