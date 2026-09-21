@@ -2,8 +2,7 @@ let prompt = require("prompt-sync")();
 function convertirMontant(montat ,taux , formatter){
      let resultat= montat * taux ;
      
-     return formatter(resultat);
-     
+     return formatter(resultat);  
 }
 const formatter = (val) => val + " DH"
    //  { val+=1   return val + " DH"; }
