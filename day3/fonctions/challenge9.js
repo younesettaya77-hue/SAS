@@ -1,14 +1,13 @@
 let prompt = require("prompt-sync")();
+let R = +prompt("donner le nomber :")
+function compteur(VALEUR){
 
-function creerCompteur(valeurInitiale = 0){
-    let moncompteur = valeurInitiale ;
-    return function (){
-        moncompteur ++ ;
-        return moncompteur ; 
+    return function retcompeur(){
+        R ++ ;
+        return R ; 
     }
 }
-let R = +prompt("donner le nomber :")
-const compteur = creerCompteur(R);
- console.log(compteur());
- console.log(compteur());
- console.log(compteur());
+let X = compteur();
+ console.log(X());
+ console.log(X());
+ console.log(X());
