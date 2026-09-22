@@ -9,15 +9,16 @@ function  plusgrandmot(chaine){
         else { tab.push(mot);
             mot = "";
         } 
-    }
-    tab.push(mot);
+    }tab.push(mot);
+
     let max = 0 ;
     let index = 0 ; 
     for(let i= 0 ;i<tab.length ; i++){
         if( tab[i].length> max){
         max = tab[i].length;
-     }
-     index = i ;
+        index = i
+      }
+
     }
     return tab[index] ;
 }
