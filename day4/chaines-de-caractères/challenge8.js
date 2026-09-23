@@ -1,9 +1,11 @@
 
 function extraireChaine(chaine, debut, fin){
-    resultat = " ";
-    maxcaracter = 0 ;
+    resultat = "";
     for(let i = 0 ; i<chaine.length ; i++){
-        resultat += 
+        resultat +=chaine[debut]+chaine[fin];
 
     }
+    return resultat ;
+
 }
+console.log(extraireChaine(javascript, 0, 4));
