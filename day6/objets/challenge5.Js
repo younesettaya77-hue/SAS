@@ -40,12 +40,7 @@ else if(choix === 3){
     retirer(account, montan2);
 }
 else if(choix ===4 ){
-     function verifier(obj){
-        if(obj.solde > 0 )
-            console.log("les solde est sufisant" );
-        else 
-               console.log("les solde est insufisant" );
-    }
+    
    verifier(account);
 }
 else if(choix ===5){

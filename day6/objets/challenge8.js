@@ -22,10 +22,7 @@ console.log(rechercherEtudiant(id));
 
 return;
 
-console.log(he)
 
-
-let he = 1234;
       
 
 
